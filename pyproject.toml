@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "my_finance"
+version = "0.1.0"
+description = "Projeto criado para gestao financeira pessoal"
+authors = ["PedroHR1409 <pedro.h.roque14@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.41.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
